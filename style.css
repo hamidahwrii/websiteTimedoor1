@@ -1,0 +1,278 @@
+/* Header */
+.main-header {
+    background-image: linear-gradient(rgb(197, 141, 137), rgb(252, 232, 204));
+    position: fixed;
+    top: 0;
+    right: 0; 
+    left: 0;
+    height: 48px;  
+ }
+ .header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+    position: absolute;
+    left: 0;
+    padding: 0;
+    margin: 14-x 14px 0 14px;
+ }
+ .header-info a {
+    padding: 0;
+    text-decoration: none;
+ }
+ .header-info a:hover {
+    background-color: transparent
+ }
+ .header{
+    text-align: center;
+ }
+
+ /* Navigasi */
+ nav {
+    position: fixed;
+    right: 0;
+    display: flex;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(219, 84, 75);
+    padding: 15px;
+    float: left;
+  }
+  
+  a:hover {
+    background-color: burlywood;
+  }
+
+  .jumbotron {
+    margin-top: 5%;
+  }
+  h1{
+    text-align: center;
+    color: cadetblue;
+    font-family: 'Franklin Gothic Medium';
+  }
+  .first{
+    text-align: center;
+    color: cadetblue;
+  }
+  .center-image{
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: auto 
+  }
+
+  /* Flex display Penjualan */
+  .title {
+    font-style: italic;
+    color: rgb(0, 0, 0);
+}
+h1, h2, h3, p {
+    text-align: center;
+    color: rgb(120, 37, 37);
+}
+.items {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    margin: 8px;
+    
+}
+h3, p {
+  text-align: center;
+  padding: 5px;
+  color: steelblue;
+}
+.portrait {
+  max-width: 100%;
+  max-height: 350px;
+}
+img {
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px darkcyan;
+}
+body{
+    background-image: url("assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0 auto;
+    /* no repeat agar gambar tidak berulang */
+}
+/* #products{
+  background-image: url("assets/bg.jpg");
+    background-size: cover;
+} */
+
+table, tr, td, th{
+  border: 2px solid black;
+  margin: 25px auto;
+  text-align: center;
+  padding: 12px 15px;
+  background-color: aqua;
+}
+
+/* Lesson 5 CSS */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+/* tambahin flex direction dan flex wrap */
+.tab {
+  background-color: gainsboro;
+  width: 250px;
+  padding: 40px;
+  margin: 20px;
+  border-radius: 20px;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1.name {
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: black;
+}
+h2.price {
+  font-size: 38px;
+  color: black;
+}
+
+.list {
+  list-style-type: disc;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.list li {
+  margin-top: 20px;
+  color: black;
+}
+
+hr {
+  height: 7px;
+  width: 80%;
+  margin: auto;
+  background-color: rgb(219, 84, 75);
+  border: none;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+/* Button class tab*/
+/* Membuat button berada di tengah2 menggunakan margin 0 auto dan display flex */
+button {
+  background-color: rgba(219, 85, 75, 0.616);
+  border-radius: 8px;
+  color: white;
+  padding: 5px;
+  border: none;
+  font-size: 20pt;
+  margin: 0 auto;
+  display: flex;
+}
+button:hover {
+  transform: scale(1.2, 1.2);
+  background-color: rgb(219, 85, 75);
+  cursor: pointer;
+}
+
+/* CHELLENGE LESSON 6 */
+
+div.about {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  background-color: blanchedalmond;
+  width: 80%;
+}
+
+.about {
+  text-align: left;
+  color: black;
+  padding: 10px;
+  width: 100%;
+}
+
+div.image-about {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+img.about-us {
+  width: 300px;
+}
+
+/* Chellenge Lesson 7 */
+/* Untuk membuat padding footer full tambahkan margin 0; dan padding 0; pada class body */
+footer {
+  background-image: linear-gradient(rgb(252, 
+  232, 204), rgb(197, 141, 137));
+}
+
+.main-footer { 
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.left-footer {
+  margin-right: auto; 
+  margin-left: 40px;
+}
+
+.right-footer {
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.center-footer {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.info-left {
+  color: rgb(219, 84, 75);
+  text-align: left;
+  width: 100%;
+}
+.info-right {
+  color: rgb(219, 84, 75);
+  text-align: right;
+  width: 100%;
+}
+
+.info-center {
+  color: rgb(219, 84, 75);
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+  border-top: 1px solid rgb(146, 168, 133);
+}
+
+.fa-map-marked-alt, .fa-map-pin, .fa-address-book, .fa-phone, .fa-instagram {
+  margin: 6px;
+  color: black;
+}
+
+/* Responsive web */
+@media (max-width: 600px) {
+  * {
+      font-size: 2vw;
+      margin: 2px;
+    }
+}
